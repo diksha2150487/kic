@@ -12,49 +12,49 @@ import img8 from "./images/HOME 2 (1).png";
 import img9 from "./images/Aboust us Header (1).png";
 import img10 from "./images/Shop now Header 1 (1).png";
 import img11 from "./images/Login Screen 1 (1).png";
-
+import img12 from "./images/Group 1000006505 (1).png";
+import img13 from "./images/Group 1000006500 (1).png";
 function App() {
   return (
     <div>
       <div className="first">
         <div className="left_section">
-          <p className="eez">
-            <img src={img1} id="circle"></img>
-          </p>
+          <img src={img1} id="circle" alt="img"></img>
           <p className="premium">
-            KICK- EEZ Premium, Made in America recoil pads and accessories to
-            make your shooting experience more comfortable.
+            <span className="heightlisght_premium"> KICK- EEZ Premium,</span>{" "}
+            Made in America recoil pads and accessories to make your shooting
+            experience more comfortable.
           </p>
           <h3>Technologies Used</h3>
           <div className="main_box">
-            <img src={img2} id="sim"></img>
-            <img src={img3} id="rotat"></img>
+            <img src={img2} id="sim" alt="img"></img>
+            <img src={img3} id="rotat" alt="img"></img>
           </div>
         </div>
         <div className="right_section">
-          <img src={img0} id="total"></img>
+          <img src={img0} id="total" alt="img"></img>
         </div>
       </div>
       {/* ************************************************** */}
       <div className="second">
-        <p className="service">Service Provided</p>
+        <p className="service">Services Provided</p>
         <div className="main_img">
           <div className="one">
-            <img src={img4} id="ux"></img>
+            <img src={img4} id="ux" alt="img"></img>
             <p>UX/UI Website Design</p>
           </div>
           <div className="one">
-            <img src={img5} id="web"></img>
+            <img src={img5} id="web" alt="img"></img>
             <p>Website Development</p>
           </div>
           <div className="one">
-            <img src={img6} id="qa"></img>
+            <img src={img6} id="qa" alt="img"></img>
             <p>QA & Website Testing</p>
           </div>
         </div>
       </div>
       {/* *********************************************** */}
-      <div className="third">
+      {/* <div className="third">
         <p>Wireframes</p>
         <div className="three-section">
           <div className="double">
@@ -66,7 +66,7 @@ function App() {
             </div>
           </div>
           <div className="single_big">
-            <img src={img8} id="pads"></img>
+            <img src={img8} id="recoil"></img>
           </div>
           <div className="triple">
             <div className="five-cross">
@@ -78,6 +78,23 @@ function App() {
           </div>
         </div>
       </div>
+      {/* ******************************************** */}
+      <div className="fourth">
+        <div className="left_card">
+          <p className="font">Font</p>
+          <div className="ywo">
+            <p className="hoo">Aa</p>
+            <p className="dark">Aa</p>
+            <p className="medium">Aa</p>
+          </div>
+          <p className="tool">Tools Use</p>
+          <img src={img13} id="blue-circle"></img>
+        </div>
+        <div className="right_card">
+          <p>Color Plate</p>
+          <img src={img12} id="red-box" />
+        </div>
+      </div>{" "}
     </div>
   );
 }
