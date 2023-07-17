@@ -54,26 +54,28 @@ function App() {
         </div>
       </div>
       {/* *********************************************** */}
-      {/* <div className="third">
-        <p>Wireframes</p>
-        <div className="three-section">
-          <div className="double">
-            <div className="on-img">
-              <img src={img7} id="pads"></img>
+      <div className="third">
+        <div className="inner_third">
+          <p>Wireframes</p>
+          <div className="three-section">
+            <div className="double">
+              <div className="on-img">
+                <img src={img7} id="pads" alt="img"></img>
+              </div>
+              <div className="two-img">
+                <img src={img9} id="pads" alt="img"></img>
+              </div>
             </div>
-            <div className="two-img">
-              <img src={img9} id="pads"></img>
+            <div className="single_big">
+              <img src={img8} id="pads" alt="img"></img>
             </div>
-          </div>
-          <div className="single_big">
-            <img src={img8} id="recoil"></img>
-          </div>
-          <div className="triple">
-            <div className="five-cross">
-              <img src={img10} id="pads"></img>
-            </div>
-            <div className="login">
-              <img src={img11} id="pads"></img>
+            <div className="triple">
+              <div className="five-cross">
+                <img src={img10} id="pads" alt="img"></img>
+              </div>
+              <div className="login">
+                <img src={img11} id="pads" alt="img"></img>
+              </div>
             </div>
           </div>
         </div>
@@ -81,14 +83,27 @@ function App() {
       {/* ******************************************** */}
       <div className="fourth">
         <div className="left_card">
-          <p className="font">Font</p>
-          <div className="ywo">
-            <p className="hoo">Aa</p>
-            <p className="dark">Aa</p>
-            <p className="medium">Aa</p>
+          <div className="vl">
+            <p className="font">Font</p>
+            <div className="ywo">
+              <div className="light-aa">
+                <p className="hoo">Aa</p>
+                <p className="roboto">Roboto</p>
+              </div>
+              <div className="dark-aa">
+                <p className="dark">Aa</p>
+                <p className="prompt">Prompt</p>
+              </div>
+              <div className="medium-aa">
+                <p className="medium">Aa</p>
+                <p className="node">Roboto</p>
+              </div>
+            </div>
+            <div className="sub">
+              <p className="tool">Tools Use</p>
+              <img src={img13} id="blue-circle"></img>
+            </div>
           </div>
-          <p className="tool">Tools Use</p>
-          <img src={img13} id="blue-circle"></img>
         </div>
         <div className="right_card">
           <p>Color Plate</p>
