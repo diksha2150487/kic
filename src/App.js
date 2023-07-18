@@ -14,25 +14,29 @@ import img10 from "./images/Shop now Header 1 (1).png";
 import img11 from "./images/Login Screen 1 (1).png";
 import img12 from "./images/Group 1000006505 (1).png";
 import img13 from "./images/Group 1000006500 (1).png";
+import img14 from "./images/WhatsApp Image 2023-07-18 at 9.17.50 PM.jpeg";
 function App() {
   return (
     <div>
-      <div className="first-kick">
-        <div className="left_section">
-          <img src={img1} id="circle" alt="img"></img>
-          <p className="premium">
-            <span className="heightlisght_premium"> KICK- EEZ Premium,</span>{" "}
-            Made in America recoil pads and accessories to make your shooting
-            experience more comfortable.
-          </p>
-          <h3>Technologies Used</h3>
-          <div className="main_box">
-            <img src={img2} id="sim" alt="img"></img>
-            <img src={img3} id="rotat" alt="img"></img>
+      <div className="side_bg_image">
+        <div className="first-kick">
+          <div className="left_section">
+            <img src={img1} id="circle" alt="img"></img>
+
+            <p className="premium">
+              <span className="heightlisght_premium"> KICK- EEZ Premium,</span>{" "}
+              Made in America recoil pads and accessories to make your shooting
+              experience more comfortable.
+            </p>
+            <h3>Technologies Used</h3>
+            <div className="main_box">
+              <img src={img2} id="sim" alt="img"></img>
+              <img src={img3} id="rotat" alt="img"></img>
+            </div>
           </div>
-        </div>
-        <div className="right_section">
-          <img src={img0} id="total" alt="img"></img>
+          <div className="right_section">
+            <img src={img0} id="total" alt="img"></img>
+          </div>
         </div>
       </div>
       {/* ************************************************** */}
