@@ -17,7 +17,7 @@ import img13 from "./images/Group 1000006500 (1).png";
 function App() {
   return (
     <div>
-      <div className="first">
+      <div className="first-kick">
         <div className="left_section">
           <img src={img1} id="circle" alt="img"></img>
           <p className="premium">
@@ -36,25 +36,25 @@ function App() {
         </div>
       </div>
       {/* ************************************************** */}
-      <div className="second">
+      <div className="second-service">
         <p className="service">Services Provided</p>
         <div className="main_img">
-          <div className="one">
+          <div className="bepo">
             <img src={img4} id="ux" alt="img"></img>
             <p>UX/UI Website Design</p>
           </div>
-          <div className="one">
+          <div className="bepo">
             <img src={img5} id="web" alt="img"></img>
             <p>Website Development</p>
           </div>
-          <div className="one">
+          <div className="bepo">
             <img src={img6} id="qa" alt="img"></img>
             <p>QA & Website Testing</p>
           </div>
         </div>
       </div>
       {/* *********************************************** */}
-      <div className="third">
+      <div className="third-wireframe">
         <div className="inner_third">
           <p>Wireframes</p>
           <div className="three-section">
@@ -62,7 +62,7 @@ function App() {
               <div className="on-img">
                 <img src={img7} id="pads" alt="img"></img>
               </div>
-              <div className="two-img">
+              <div className="too-img">
                 <img src={img9} id="pads" alt="img"></img>
               </div>
             </div>
@@ -81,8 +81,8 @@ function App() {
         </div>
       </div>
       {/* ******************************************** */}
-      <div className="fourth">
-        <div className="left_card">
+      <div className="fourth-plate">
+        <div className="left-card-color">
           <div className="vl">
             <p className="font">Font</p>
             <div className="ywo">
@@ -105,7 +105,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="right_card">
+        <div className="right-card-color">
           <p>Color Plate</p>
           <img src={img12} id="red-box" />
         </div>
