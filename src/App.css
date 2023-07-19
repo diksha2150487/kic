@@ -3,13 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
 .first-kick {
   background-color: #085881;
   display: flex;
   height: 400px;
-  border-bottom-right-radius: 60% 35%;
+  border-bottom-right-radius: 70% 20%;
+  /* background-position: top 0px right 30px; */
+  background-repeat: no-repeat;
   /* margin-top: 90px; */
+  z-index: -3;
 }
+
 .left_section {
   padding-left: 6rem;
   padding-top: 4.3rem;
@@ -17,11 +22,16 @@
   /* background-color: #911717; */
 }
 .right_section {
-  width: 45%;
+  width: 53%;
+  background-image: url("./images/Group\ 1000006491.png");
+  /* background-color: white; */
   /* margin-right: 10%; */
   /* position: relative; */
   padding-left: 5px;
+  z-index: 3;
+  position: relative;
 }
+
 #total {
   max-width: 700px;
   width: 100%;
@@ -72,6 +82,7 @@
   height: 25px;
   border-radius: 0px;
 }
+
 /* .side_bg_image > img {
   background-image: url(./images/WhatsApp\ Image\ 2023-07-18\ at\ 9.17.50\ PM.jpeg);
   position: absolute; */
