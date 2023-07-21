@@ -14,43 +14,50 @@ import img10 from "./images/Shop now Header 1 (1).png";
 import img11 from "./images/Login Screen 1 (1).png";
 import img12 from "./images/Group 1000006505 (1).png";
 import img13 from "./images/Group 1000006500 (1).png";
+import img14 from "./images/Frame.png";
+import img15 from "./images/Group 1000006826.png";
+import img16 from "./images/shot.png";
+import img18 from "./images/Group 1000006829.png";
+import img19 from "./images/Frame (1).png";
 
 function App() {
   return (
     <div>
-      <div className="first-kick">
-        <div className="left_section">
-          <img src={img1} id="circle" alt="img"></img>
-          <p className="premium">
-            <span className="heightlisght_premium"> KICK- EEZ Premium,</span>{" "}
-            Made in America recoil pads and accessories to make your shooting
-            experience more comfortable.
-          </p>
-          <h3>Technologies Used</h3>
-          <div className="main_box">
-            <img src={img2} id="sim" alt="img"></img>
-            <img src={img3} id="rotat" alt="img"></img>
+      <div className="side_bg_image">
+        <div className="first-kick">
+          <div className="left_section">
+            <img src={img1} id="circle" alt="img"></img>
+            <p className="premium">
+              <span className="heightlisght_premium"> KICK- EEZ Premium,</span>{" "}
+              Made in America recoil pads and accessories to make your shooting
+              experience more comfortable.
+            </p>
+            <h3>Technologies Used</h3>
+            <div className="main_box">
+              <img src={img2} id="sim" alt="img"></img>
+              <img src={img3} id="rotat" alt="img"></img>
+            </div>
+          </div>
+          <div className="right_section">
+            <img src={img0} id="total" alt="img"></img>
           </div>
         </div>
-        <div className="right_section">
-          <img src={img0} id="total" alt="img"></img>
-        </div>
-      </div>
-      {/* ************************************************** */}
-      <div className="second-service">
-        <p className="service">Services Provided</p>
-        <div className="main_img">
-          <div className="bepo">
-            <img src={img4} id="ux" alt="img"></img>
-            <p>UX/UI Website Design</p>
-          </div>
-          <div className="bepo">
-            <img src={img5} id="web" alt="img"></img>
-            <p>Website Development</p>
-          </div>
-          <div className="bepo">
-            <img src={img6} id="qa" alt="img"></img>
-            <p>QA & Website Testing</p>
+        {/* ************************************************** */}
+        <div className="second-service">
+          <p className="service">Services Provided</p>
+          <div className="main_img">
+            <div className="bepo">
+              <img src={img4} id="ux" alt="img"></img>
+              <p>UX/UI Website Design</p>
+            </div>
+            <div className="bepo">
+              <img src={img5} id="web" alt="img"></img>
+              <p>Website Development</p>
+            </div>
+            <div className="bepo">
+              <img src={img6} id="qa" alt="img"></img>
+              <p>QA & Website Testing</p>
+            </div>
           </div>
         </div>
       </div>
@@ -102,15 +109,73 @@ function App() {
             </div>
             <div className="sub">
               <p className="tool">Tools Use</p>
-              <img src={img13} id="blue-circle"></img>
+              <img src={img13} id="blue-circle" alt="img"></img>
             </div>
           </div>
         </div>
         <div className="right-card-color">
           <p>Color Plate</p>
-          <img src={img12} id="red-box" />
+          <img src={img12} id="red-box" alt="img" />
         </div>
       </div>{" "}
+      {/* ****************************************** */}
+      <div className="five-create">
+        <p className="intutive">
+          Our Process to Create Intuitive React Native Apps
+        </p>
+        <p className="leverage">
+          Unlock your true potential, leverage the best of technology, and
+          create apps based on modern algorithms with our React Native
+          development experts.
+        </p>
+        <div className="triple-mainbox">
+          <div className="discover-box">
+            <div className="line">
+              <img src={img14} id="delo"></img>
+            </div>
+            <p className="discover">Discover</p>
+            <p className="project">
+              There goes a lot in the back to turn your project into a success
+              story.
+            </p>
+          </div>
+          <hr className="horzt" />
+          <div className="discover-box">
+            <img src={img15} id="delo"></img>
+            <p className="discover">Define</p>
+            <p className="project">
+              Determining the scope of how we can convert your idea into
+              reality.
+            </p>
+          </div>
+          <hr className="horzt" />
+          <div className="discover-box">
+            <img src={img16} id="delo"></img>
+            <p className="discover">Design</p>
+            <p className="project">Offering you breakthrough app prototypes</p>
+          </div>
+        </div>
+        <div className="double-mainbox">
+          <div className="discover-box">
+            <img src={img18} id="delo"></img>
+            <p className="discover">Analyze & Deliver</p>
+            <p className="project">
+              Stable and secure application served at your table as per the
+              deadlines
+            </p>
+          </div>
+          <hr className="horzt" />
+          <div className="discover-box">
+            <img src={img19} id="delo"></img>
+            <p className="discover">Develop</p>
+            <p className="project" id="important">
+              We’d commence development with a - milestone based plan of action.
+            </p>
+          </div>
+          <hr id="line2" />
+          <hr id="vertical" />
+        </div>
+      </div>
     </div>
   );
 }
