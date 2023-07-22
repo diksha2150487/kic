@@ -19,103 +19,102 @@ import img15 from "./images/Group 1000006826.png";
 import img16 from "./images/shot.png";
 import img18 from "./images/Group 1000006829.png";
 import img19 from "./images/Frame (1).png";
-
 function App() {
   return (
     <div>
-      <div className="side_bg_image">
-        <div className="first-kick">
-          <div className="left_section">
-            <img src={img1} id="circle" alt="img"></img>
-            <p className="premium">
+      <div className="side-bg-trio">
+        <div className="first-kick-pads">
+          <div className="left-section-kids">
+            <img src={img1} id="plus-circle" alt="img"></img>
+            <p className="shoots_premium">
               <span className="heightlisght_premium"> KICK- EEZ Premium,</span>{" "}
               Made in America recoil pads and accessories to make your shooting
               experience more comfortable.
             </p>
             <h3>Technologies Used</h3>
-            <div className="main_box">
+            <div className="main-box-logic">
               <img src={img2} id="sim" alt="img"></img>
               <img src={img3} id="rotat" alt="img"></img>
             </div>
           </div>
-          <div className="right_section">
-            <img src={img0} id="total" alt="img"></img>
+          <div className="right-section-kids">
+            <img src={img0} id="total-group" alt="img"></img>
           </div>
         </div>
         {/* ************************************************** */}
-        <div className="second-service">
-          <p className="service">Services Provided</p>
-          <div className="main_img">
-            <div className="bepo">
-              <img src={img4} id="ux" alt="img"></img>
+        <div className="second-service-conte">
+          <p className="service-hinking">Services Provided</p>
+          <div className="main-img-mighty">
+            <div className="bepolo">
+              <img src={img4} id="ux-safari" alt="img"></img>
               <p>UX/UI Website Design</p>
             </div>
-            <div className="bepo">
-              <img src={img5} id="web" alt="img"></img>
+            <div className="bepolo">
+              <img src={img5} id="web-safari" alt="img"></img>
               <p>Website Development</p>
             </div>
-            <div className="bepo">
-              <img src={img6} id="qa" alt="img"></img>
+            <div className="bepolo">
+              <img src={img6} id="qa-safari" alt="img"></img>
               <p>QA & Website Testing</p>
             </div>
           </div>
         </div>
       </div>
       {/* *********************************************** */}
-      <div className="third-wireframe">
-        <div className="inner_third">
+      <div className="third-wireframe-homie">
+        <div className="inner-third-local">
           <p>Wireframes</p>
-          <div className="three-section">
-            <div className="double">
+          <div className="three-section-lab">
+            <div className="double-camp">
               <div className="on-img">
-                <img src={img7} id="pads" alt="img"></img>
+                <img src={img7} id="pads-cats" alt="img"></img>
               </div>
               <div className="too-img">
-                <img src={img9} id="pads" alt="img"></img>
+                <img src={img9} id="pads-cats" alt="img"></img>
               </div>
             </div>
             <div className="single_big">
-              <img src={img8} id="pads" alt="img"></img>
+              <img src={img8} id="pads-cats" alt="img"></img>
             </div>
-            <div className="triple">
+            <div className="triple-badge">
               <div className="five-cross">
-                <img src={img10} id="pads" alt="img"></img>
+                <img src={img10} id="pads-cats" alt="img"></img>
               </div>
-              <div className="login">
-                <img src={img11} id="pads" alt="img"></img>
+              <div className="login-faire">
+                <img src={img11} id="pads-cats" alt="img"></img>
               </div>
             </div>
           </div>
         </div>
       </div>
       {/* ******************************************** */}
-      <div className="fourth-plate">
-        <div className="left-card-color">
-          <div className="vl">
-            <p className="font">Font</p>
-            <div className="ywo">
+      <div className="fourth-plate-juuls">
+        <div className="left-card-hub">
+          <div className="vl-chic">
+            <p className="fila">Font</p>
+            <div className="ywo-stem">
               <div className="light-aa">
                 <p className="hoo">Aa</p>
-                <p className="roboto">Roboto</p>
+                <p className="roboto-tip">Roboto</p>
               </div>
               <div className="dark-aa">
-                <p className="dark">Aa</p>
-                <p className="prompt">Prompt</p>
+                <p className="dark-canny">Aa</p>
+                <p className="prompt-tip">Prompt</p>
               </div>
               <div className="medium-aa">
                 <p className="medium">Aa</p>
-                <p className="node">Roboto</p>
+                <p className="node-tip">Roboto</p>
               </div>
             </div>
-            <div className="sub">
+            <div className="sub-worm">
               <p className="tool">Tools Use</p>
-              <img src={img13} id="blue-circle" alt="img"></img>
+              <img src={img13} id="pals-circle" alt="img"></img>
             </div>
           </div>
         </div>
-        <div className="right-card-color">
+        <div className="right-card-omega">
           <p>Color Plate</p>
-          <img src={img12} id="red-box" alt="img" />
+          <img src={img12} id="gang" alt="img" />
         </div>
       </div>{" "}
       {/* ****************************************** */}
